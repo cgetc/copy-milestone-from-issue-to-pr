@@ -1,0 +1,9 @@
+name: 'Copy milestone from issue to pull request'
+description: 'Copy milestone from issue to pull request'
+inputs:
+  GITHUB_TOKEN:  # id of input
+    description: 'Github Token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
