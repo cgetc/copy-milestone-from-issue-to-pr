@@ -18,6 +18,10 @@
     "url": "https://github.com/cgetc/copy-milestone-from-issue-to-pr/issues"
   },
   "homepage": "https://github.com/cgetc/copy-milestone-from-issue-to-pr#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  },
   "devDependencies": {
     "@vercel/ncc": "^0.31.1"
   }
