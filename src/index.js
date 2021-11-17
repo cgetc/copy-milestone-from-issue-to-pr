@@ -33,7 +33,7 @@ async function run(octokit, context) {
 
 async function main () {
     try {
-        const octokit = github.getOctokit(core.getInput('GITHUB_TOKEN'))
+        const octokit = github.getOctokit(core.getInput('github-token'))
         const { data: { milestone } } = await run(octokit, github.context)
         core.setOutput('milestoneNumber', milestone.number)
         core.setOutput('milestoneTitle', milestone.title)

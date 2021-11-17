@@ -1,7 +1,7 @@
 name: 'Copy milestone from issue to pull request'
 description: 'Copy milestone from issue to pull request'
 inputs:
-  GITHUB_TOKEN:  # id of input
+  github-token:  # id of input
     description: 'Github Token'
     required: true
 runs:
