@@ -4,7 +4,7 @@ This action copy a milestone to pull request from a issue number written its bod
 
 ## Inputs
 
-## `GITHUB_TOKEN`
+## `github-token`
 
 **Required** Github Token。
 
