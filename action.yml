@@ -1,12 +1,12 @@
-name: 'Copy milestone from issue to pull request'
-description: 'Copy milestone from issue to pull request'
+name: "Copy milestone from issue to pull request"
+description: "Copy milestone from issue to pull request"
 inputs:
-  github-token:  # id of input
-    description: 'Github Token'
+  github-token: # id of input
+    description: "Github Token"
     required: true
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
 branding:
-  icon: 'git-pull-request'
-  color: 'green'
+  icon: "git-pull-request"
+  color: "green"
